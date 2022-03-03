@@ -14,6 +14,8 @@
 		A69B267D27D0E429003317E8 /* VisualisingDataStructuresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69B267C27D0E429003317E8 /* VisualisingDataStructuresTests.swift */; };
 		A69B268727D0E429003317E8 /* VisualisingDataStructuresUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69B268627D0E429003317E8 /* VisualisingDataStructuresUITests.swift */; };
 		A69B268927D0E429003317E8 /* VisualisingDataStructuresUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69B268827D0E429003317E8 /* VisualisingDataStructuresUITestsLaunchTests.swift */; };
+		A69B269627D0E43A003317E8 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69B269527D0E43A003317E8 /* Stack.swift */; };
+		A69B269727D0E959003317E8 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69B269527D0E43A003317E8 /* Stack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,7 @@
 		A69B268227D0E429003317E8 /* VisualisingDataStructuresUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisualisingDataStructuresUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A69B268627D0E429003317E8 /* VisualisingDataStructuresUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualisingDataStructuresUITests.swift; sourceTree = "<group>"; };
 		A69B268827D0E429003317E8 /* VisualisingDataStructuresUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualisingDataStructuresUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A69B269527D0E43A003317E8 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,7 @@
 				A69B266D27D0E427003317E8 /* ContentView.swift */,
 				A69B266F27D0E428003317E8 /* Assets.xcassets */,
 				A69B267127D0E428003317E8 /* Preview Content */,
+				A69B269527D0E43A003317E8 /* Stack.swift */,
 			);
 			path = VisualisingDataStructures;
 			sourceTree = "<group>";
@@ -258,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A69B266E27D0E427003317E8 /* ContentView.swift in Sources */,
+				A69B269627D0E43A003317E8 /* Stack.swift in Sources */,
 				A69B266C27D0E427003317E8 /* VisualisingDataStructuresApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A69B269727D0E959003317E8 /* Stack.swift in Sources */,
 				A69B267D27D0E429003317E8 /* VisualisingDataStructuresTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
