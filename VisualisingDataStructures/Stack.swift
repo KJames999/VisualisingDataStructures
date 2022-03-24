@@ -6,35 +6,34 @@
 //
 
 import Foundation
+import SwiftUI
 
 class Stack: ObservableObject {
-    @Published var stack: [String] = [""]
-    @Published var pushItem: String = "push"
-    
-    func peek() {
-        if stack.count == 0 {
-            print("Empty")
-        } else {
-            print("Top of stack: \(stack[0])")
+    @Published var stack: [String] = ["i", "a"]
+    var stackList: String {
+        var stackDisplay = ""
+        for item in stack {
+            stackDisplay += item
+            stackDisplay += "\n"
         }
+        return stackDisplay
     }
     
-    func view() {
-        print(stack)
-    }
-    
-    func push(pushItem: String) {
-        stack.insert(pushItem, at: 0)
+    func peek() -> String {
+        if stack.count == 0 {
+            return "Empty"
+        } else {
+            return "Top of stack: \(stack[0])"
+        }
     }
     
     func pop() -> String {
         if stack.count != 0 {
-            return stack.popLast()!
+            return stack.popFirst()!
         } else {
             print("Cannot pop from an empty stack")
         }
-        
-        return "are you happy now because i'm not"
+        return "hmmm"
     }
     
 }
